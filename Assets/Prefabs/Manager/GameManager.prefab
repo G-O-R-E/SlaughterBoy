@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6826365027043602206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1780808852872759535}
+  - component: {fileID: 3935891631143998677}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780808852872759535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826365027043602206}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3935891631143998677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826365027043602206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a9dc2b824019d45be5080a4e60a970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersVisuelPrefabs:
+  - {fileID: 161306228291407599, guid: 683d549cca9045d47a476d5b3acd1dab, type: 3}
+  - {fileID: 161306228291407599, guid: adcaec32648a5464ba13552a3b93daf4, type: 3}
+  - {fileID: 9141006966069843185, guid: a09e3992018a0d44cbd64fff083ce306, type: 3}
+  - {fileID: 5704626631205681516, guid: 3c4ac0f9e0de62b4f982990b21241480, type: 3}
+  - {fileID: 5704626631205681516, guid: e9223d71c16cd6c4e856e563a8fad7fc, type: 3}
+  - {fileID: 5704626631205681516, guid: c67732272f018f8448c8d1845a8ea44d, type: 3}
+  - {fileID: 5704626631205681516, guid: cb72bc792616078449193fdb82ffb105, type: 3}
+  weaponPrefabs:
+  - name: Pistogun(Clone)
+    prefabs: {fileID: 5404371698597480845, guid: bfd2c5b289fdbd84990a96df0eb4302f, type: 3}
+  - name: Paintgun(Clone)
+    prefabs: {fileID: 29041111835807759, guid: 58bc62a9107846b4d985a01cf1b94e95, type: 3}
+  - name: Knife(Clone)
+    prefabs: {fileID: 368616761384647567, guid: 58b93148309854c4c9cd94458dab9cd2, type: 3}
+  - name: Boomerang(Clone)
+    prefabs: {fileID: 368616761384647567, guid: beb7d6c4e408c284989f89779c3ef26c, type: 3}
+  - name: Cryogenigun(Clone)
+    prefabs: {fileID: 5404371698597480845, guid: 40f4398e9e994974dbdb1286d8ea047b, type: 3}
+  - name: FlameThrower(Clone)
+    prefabs: {fileID: 5404371698597480845, guid: 6813ca9181267414a91fc5d9cb3f1a88, type: 3}
+  - name: Torch(Clone)
+    prefabs: {fileID: 368616761384647567, guid: 7f34e8a6a5c11b141bf02d45b06b2729, type: 3}
+  previousScene: Game
+  activeScene: Shop
+  dataPlayer:
+    stats:
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    life: 0
+    nbLevelToUp: 0
+    currentLevel: 0
+    currentXp: 0
+    maxXp: 0
+    money: 100
+    weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    items: []
+  dataGame:
+    waves: 1
+    lastTimer: 0
+    difficulty: 0
+  updateLife: 0
+  updateMoney: 0
+  updateXp: 0
+  updateLevel: 0
+  hasInitAParty: 0
+  characterIndex: -1
+  playerIsDeath: 0

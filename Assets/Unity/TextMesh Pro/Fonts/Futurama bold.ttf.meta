@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aa2e971e562ec184287bcb52418cf0ef
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Futurama
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e444854444099b4419026c97cf54510e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6272454169648518388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8944170512601064334}
+  - component: {fileID: 8032128507745496614}
+  m_Layer: 0
+  m_Name: TutoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8944170512601064334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272454169648518388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8032128507745496614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272454169648518388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7f108503408b443b51a06efdd51f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabsCharacterSelection:
+  - {fileID: 3761263516530635959, guid: 8441a1df42952c54ca44309fae9301d7, type: 3}
+  - {fileID: 8059001219594377672, guid: dc913d5b3338aaa4ca41cd43666b9c91, type: 3}
+  prefabsGame:
+  - {fileID: 2995584071372391780, guid: 725a4e5c708ee5642a100b0994347300, type: 3}
+  - {fileID: 2855371193900871374, guid: 072217a78f9046445a8ffd137c72f298, type: 3}
+  - {fileID: 5841991116603874155, guid: 96e6781869d3ff54ca728c908c515dc6, type: 3}
+  prefabsLVLUp:
+  - {fileID: 5503440230290753021, guid: c62214feb95239c448dc16e7cfaecc6c, type: 3}
+  - {fileID: 5503440230290753021, guid: 39b1a3a4c4770fb49888964f9bf73ebf, type: 3}
+  - {fileID: 5503440230290753021, guid: 5ab06665ca4abf645aa0ba1df0998e4f, type: 3}
+  - {fileID: 5503440230290753021, guid: 55f7469f310d7a44baa5b1a6de84529a, type: 3}
+  prefabsShop:
+  - {fileID: 5503440230290753021, guid: 90e28ce2ec1bfe84cba3e20e6c3c3eec, type: 3}
+  - {fileID: 5503440230290753021, guid: beb6b8069f6449346b5fc1ae218e642d, type: 3}
+  - {fileID: 5503440230290753021, guid: 55da75af17085a947941acef72fb8e3b, type: 3}
+  - {fileID: 5503440230290753021, guid: 94822c23a0eeed64fa2435dbef1971dc, type: 3}
+  - {fileID: 5503440230290753021, guid: a01a8f4f1b5f6e64fa47506a5bf1ff98, type: 3}
+  characterSelectionDone: 0
+  gameDone: 0
+  lvlUpDone: 0
+  shopDone: 0
+  allTutoFrame:
+  - {fileID: 3761263516530635959, guid: 8441a1df42952c54ca44309fae9301d7, type: 3}
+  - {fileID: 8059001219594377672, guid: dc913d5b3338aaa4ca41cd43666b9c91, type: 3}
+  - {fileID: 2995584071372391780, guid: 725a4e5c708ee5642a100b0994347300, type: 3}
+  - {fileID: 2855371193900871374, guid: 072217a78f9046445a8ffd137c72f298, type: 3}
+  - {fileID: 5841991116603874155, guid: 96e6781869d3ff54ca728c908c515dc6, type: 3}
+  - {fileID: 5503440230290753021, guid: c62214feb95239c448dc16e7cfaecc6c, type: 3}
+  - {fileID: 5503440230290753021, guid: 39b1a3a4c4770fb49888964f9bf73ebf, type: 3}
+  - {fileID: 5503440230290753021, guid: 5ab06665ca4abf645aa0ba1df0998e4f, type: 3}
+  - {fileID: 5503440230290753021, guid: 55f7469f310d7a44baa5b1a6de84529a, type: 3}
+  - {fileID: 5503440230290753021, guid: 90e28ce2ec1bfe84cba3e20e6c3c3eec, type: 3}
+  - {fileID: 5503440230290753021, guid: beb6b8069f6449346b5fc1ae218e642d, type: 3}
+  - {fileID: 5503440230290753021, guid: 55da75af17085a947941acef72fb8e3b, type: 3}
+  - {fileID: 5503440230290753021, guid: 94822c23a0eeed64fa2435dbef1971dc, type: 3}
+  - {fileID: 5503440230290753021, guid: a01a8f4f1b5f6e64fa47506a5bf1ff98, type: 3}
